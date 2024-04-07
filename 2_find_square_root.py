@@ -8,6 +8,20 @@ Square root means vergmul
 √16 का वर्गमूल 4 होगा
 using exponentiation operator means **
 """
+# =========================
 # 1. USIING EXPONENTION **
+# =========================
+
 number = int(input("Enter Number for find Squre Root: "))
 print(f"Square root of {number} is: ",number**(1/2))
+
+#===========================
+# 2. USING MATH MODULE sqrt
+#===========================
+
+from math import sqrt
+number = int(input("Enter Number for find Squre Root: "))
+print(f"Square root of {number} is: ",sqrt(number))
+
+
+
